@@ -1,20 +1,17 @@
-import React from 'react'
-import Header from './components/Header'
-import Banner from './components/Banner'
-import About from './components/About'
-import AboutPage from './components/AboutPage'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import BlogDetails from "./components/BlogDetails";
+
+
 const App = () => {
   return (
-    <div>
-      <div >
-      <Header />
-      <Banner />
-      </div>
-      {/* <About/> */}
-      <AboutPage/>
-    </div>
-  )
-}
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blog/:id" element={<BlogDetails />} />
+      </Routes>
+    </Router>
+  );
+};
 
-export default App
-
+export default App;
