@@ -11,7 +11,7 @@ const Banner = () => {
       <div className="max-w-[1200px] mx-auto flex  px-12 pt-2 md:pt-1 ">
         {/* Left Side */}
         <div className="w-full md:w-1/2 flex flex-col items-center text-center md:text-left pt-12 ">
-          <img src={logo} alt="Vijnjodaya Logo" className="h-52 md:h-52  " />
+          <img src={logo} alt="Vijnjodaya Logo" className="h-52 md:h-52 -z-30 " />
           <h1 className="text-4xl md:text-5xl font-bold mt-6">VIJNJODAYA</h1>
           <h4 className="tracking-widest mt-2">Arts and Sports Club Kottur</h4>
           <p className="mt-6 md:mx-36  text-2xl md:text-xl font-bold">

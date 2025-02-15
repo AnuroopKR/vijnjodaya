@@ -4,7 +4,7 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 const Header = () => {
   const [nav,setNav]=useState(false)
   return (
-    <div className='bg-cyan-50 h-20 text-5xl     '>
+    <div className='bg-cyan-50 h-20 text-5xl'>
       <div className='flex items-center justify-between h-20'>
       <div className='flex md:m-14 gap-8'>
       <img src={name} alt="logo"  className='h-12 m-2  '/>
