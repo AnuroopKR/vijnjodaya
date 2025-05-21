@@ -60,7 +60,7 @@ export default function LandingPage() {
             whileHover={{ scale: 1.05 }}
             className="mt-8 px-8 py-3 bg-yellow-400 text-black font-semibold rounded-full shadow-lg hover:shadow-xl transition"
           >
-            അംഗമാകൂ
+            Join Now
           </motion.button>
         </div>
       </section>
