@@ -8,7 +8,7 @@ export default function LandingPage() {
   return (
     <div className="font-sans text-gray-800">
       <Head>
-        <title>Vibrance Kerala Club</title>
+        <title>Vijnjodaya</title>
         <meta
           name="description"
           content="Celebrating Arts, Sports, and Spirit of Kerala"
