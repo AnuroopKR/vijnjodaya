@@ -7,7 +7,7 @@ const pastEvents=[
   {
     title:"SSLC/+2 അനുമോദനം",
     date:"08-06-2025  10:30 AM",
-    location:"Kottoor",
+    venue:"Kottoor",
     image:"/sslc.jpg"
   }
 ]
@@ -217,12 +217,12 @@ export default function LandingPage() {
                 </p>
                 <p className="text-gray-500 mb-4">
                   📍 {event.venue}{" "}
-                  <a
+                  {/* <a
                     href={event.mapLink}
                     className="text-blue-500 hover:underline"
                   >
                     (View Map)
-                  </a>
+                  </a> */}
                 </p>
                 <p className="text-gray-700 mb-6 flex-grow">
                   {event.description}
@@ -230,7 +230,7 @@ export default function LandingPage() {
 
                 {/* Gallery Button */}
                 <a
-                  href={event.galleryLink}
+                  href={"#"}
                   className="px-4 py-2 text-center bg-gradient-to-r from-purple-500 to-purple-600 text-white rounded-lg shadow hover:from-purple-600 hover:to-purple-700 transition-all duration-300"
                 >
                   View Gallery
