@@ -14,9 +14,9 @@ const pastEvents=[
 
 const events=[
    {
-    title: "Independence Day Celebration 🇮🇳",
+    title: "Independence Day Celebration",
     date: "15 August 2025",
-    time: "8:00 AM",
+    time: "9:30 AM",
     venue: "Vijnjodaya Arts & Sports Club Ground, Sreekandapuram, Kottoor",
     mapLink: "#",
     description:
@@ -273,7 +273,7 @@ export default function LandingPage() {
 
       {/* Footer */}
       <footer className="bg-green-900 text-white py-8 px-6 text-center">
-        <p>© 2025 Vibrance Kerala Club</p>
+        <p>© 2025 Vijnjodaya arts and aports club</p>
         <div className="mt-4 space-x-6">
           <a href="#" className="hover:underline">
             Facebook
