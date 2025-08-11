@@ -225,7 +225,7 @@ export default function LandingPage() {
                   </a> */}
                 </p>
                 <p className="text-gray-700 mb-6 flex-grow">
-                  {event.description}
+                  {/* {event.description} */}
                 </p>
 
                 {/* Gallery Button */}
